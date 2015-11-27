@@ -1,4 +1,4 @@
-package com.sam.lab.entity;
+package com.sam.test.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

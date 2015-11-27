@@ -6,8 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
-import com.sam.lab.entity.Reservation;
-import com.sam.lab.repository.ReservationRepository;
+
+import com.sam.test.entity.Reservation;
+import com.sam.test.repository.ReservationRepository;
 
 @Component
 public class ApplicationStartup implements ApplicationListener<ContextRefreshedEvent>{
